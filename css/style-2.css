@@ -1121,3 +1121,172 @@ body
     width: 70px;
     border-radius: 50%;
 }
+.contact-us
+{
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: flex-start;
+}
+
+.contact-us .summary
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center; 
+    align-items: flex-end;
+    position: relative;
+    font-size: 14px;
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+.contact-us .summary::after
+{
+    content: "CONTACT";
+    position: absolute;
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    opacity: 0.07;
+    z-index: 0;
+    bottom: 30px;
+    
+    
+}
+.contact-us .summary::before
+{
+    content: "";
+    width: 100px;
+    height: 4px;
+    position: absolute;
+    background-color: #4fc994;
+    bottom: 55px;
+    z-index: 100;
+}
+
+.contact-us .footer
+{   
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.contact-us .footer .address
+{
+    box-sizing: border-box;
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 30px;
+}
+.contact-us .footer .address p
+{
+    font-size: 24px;
+}
+.contact-us .footer .address .location
+{
+    margin-bottom: 30px;
+}
+.contact-us .footer .address .location p
+{
+    margin: 0;
+    margin-top:5px;
+    font-size: 16px;
+    color: #6e757e;
+}
+.contact-us .footer .address .location-1 p
+{
+
+    margin: 0;
+    margin-top:3px;
+    font-size: 16px;
+    color: #6e757e;
+}
+
+.contact-us .footer .send-us
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 30px;
+}
+.contact-us .footer .send-us p
+{
+    font-size: 24px;
+}
+.contact-us .footer .send-us input
+{
+    box-sizing: border-box;
+    background: #e7e7e7;
+    border: none;
+    outline: none;
+    height: 50px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+    margin-right: 30px;
+    font-size: 20px;
+    box-shadow: 2px 5px 10px 0px rgb(179, 179, 179);
+}
+.contact-us .footer .send-us input:focus
+{
+    outline: 0.5px solid rgba(37, 157, 255, 0.336);
+    box-shadow: 2px 5px 10px 0px rgb(216, 238, 255);
+    
+}
+.contact-us .footer .send-us textarea
+{
+    box-sizing: border-box;
+    background: #e7e7e7;
+    border: none;
+    outline: none;
+    height: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+    margin-right: 30px;
+    font-size: 20px;
+    box-shadow: 2px 5px 10px 0px rgb(179, 179, 179);
+}
+.contact-us .footer .send-us textarea:focus
+{
+    outline: 0.5px solid rgba(37, 157, 255, 0.336);
+    box-shadow: 2px 5px 10px 0px rgb(216, 238, 255);
+    
+}
+.contact-us .footer .send-us .bottom
+{
+    border: none;
+    background-color: #56ebaa;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: large;
+    box-shadow: 2px 5px 20px 0px #52e2a49d;
+}
+.contact-us .footer .send-us div
+{   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
