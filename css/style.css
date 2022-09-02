@@ -54,7 +54,7 @@ body { font-family: 'Poppins', sans-serif; }
     z-index: 3;
 }
 @media (max-width : 767px) {
-    .special-heading { font-size: 50px; }   
+    .special-heading { font-size: 40px; }   
     .special-heading + p {
         font-size: 16px;
         margin: -40px 0 0 0;
@@ -171,7 +171,7 @@ body { font-family: 'Poppins', sans-serif; }
 /* end navbar  */
 /* start hello  */
 .hello {
-    background-image:url(../img/intro-bg-1.jpg) ;
+    background-image:url(../img/intro-bg.jpg) ;
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -736,8 +736,15 @@ body { font-family: 'Poppins', sans-serif; }
 }
 .portfolio .container .portfolio-content {
     display: grid;
-    grid-template-columns: repeat(auto-fill , minmax( 320px , 1fr));
+    grid-template-columns: repeat(auto-fill , minmax( 310px , 1fr));
     grid-gap: 20px;
+}
+@media (max-width:767px) {
+    .portfolio .container .portfolio-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fill , minmax( 200px , 1fr));
+        grid-gap: 20px;
+    }
 }
 .portfolio .container ul {
     list-style: none;
