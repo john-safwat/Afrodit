@@ -172,6 +172,7 @@ body { font-family: 'Poppins', sans-serif; }
 /* start hello  */
 .hello {
     background-image:url(../img/intro-bg-1.jpg) ;
+    background-attachment: fixed;
     background-size: cover;
     height: 100vh;
     display: flex;
